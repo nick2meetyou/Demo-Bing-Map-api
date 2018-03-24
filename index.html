@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo Bing Map api</title>
+	<link rel='stylesheet' href='css/bootstrap.min.css' />
+	<link rel='stylesheet' href='css/formio.full.min.css' />
+	<script src='js/formio.full.min.js'></script>
+	<script src='js/jquery.min.js'></script>
+	<script src="js/map.js"></script>
+	<script src='js/form.json.js'></script>
+	<script charset="UTF-8" type="text/javascript" src="https://www.bing.com/api/maps/mapcontrol?"></script>
+	<script type='text/javascript'>
+		window.onload = function () {
+			Formio.createForm(document.getElementById('formio'), formobj)
+			GetMap('th');
+		}
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<div class="col-lg-4" id="formio"></div>
+</body>
+</html>
